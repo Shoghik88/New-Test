@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4FB58A22060452800F11EC3 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB58A12060452800F11EC3 /* ContactsViewController.swift */; };
+		F4FB58A420605CBE00F11EC3 /* PoliceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB58A320605CBE00F11EC3 /* PoliceList.swift */; };
 		F4FDC0B4205FF05A006BBF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0B3205FF05A006BBF35 /* AppDelegate.swift */; };
-		F4FDC0B6205FF05A006BBF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0B5205FF05A006BBF35 /* ViewController.swift */; };
+		F4FDC0B6205FF05A006BBF35 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0B5205FF05A006BBF35 /* FirstTableViewController.swift */; };
 		F4FDC0B9205FF05A006BBF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FDC0B7205FF05A006BBF35 /* Main.storyboard */; };
 		F4FDC0BC205FF05A006BBF35 /* task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0BA205FF05A006BBF35 /* task.xcdatamodeld */; };
 		F4FDC0BE205FF05A006BBF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FDC0BD205FF05A006BBF35 /* Assets.xcassets */; };
 		F4FDC0C1205FF05A006BBF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FDC0BF205FF05A006BBF35 /* LaunchScreen.storyboard */; };
+		F4FEE8772061438F00876FFA /* MenObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FEE8762061438F00876FFA /* MenObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4FB58A12060452800F11EC3 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		F4FB58A320605CBE00F11EC3 /* PoliceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceList.swift; sourceTree = "<group>"; };
 		F4FDC0B0205FF05A006BBF35 /* task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FDC0B3205FF05A006BBF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4FDC0B5205FF05A006BBF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4FDC0B5205FF05A006BBF35 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		F4FDC0B8205FF05A006BBF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4FDC0BB205FF05A006BBF35 /* task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task.xcdatamodel; sourceTree = "<group>"; };
 		F4FDC0BD205FF05A006BBF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FDC0C0205FF05A006BBF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4FDC0C2205FF05A006BBF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FEE8762061438F00876FFA /* MenObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				F4FDC0B3205FF05A006BBF35 /* AppDelegate.swift */,
-				F4FDC0B5205FF05A006BBF35 /* ViewController.swift */,
+				F4FDC0B5205FF05A006BBF35 /* FirstTableViewController.swift */,
+				F4FB58A12060452800F11EC3 /* ContactsViewController.swift */,
+				F4FB58A320605CBE00F11EC3 /* PoliceList.swift */,
+				F4FEE8762061438F00876FFA /* MenObject.swift */,
 				F4FDC0B7205FF05A006BBF35 /* Main.storyboard */,
 				F4FDC0BD205FF05A006BBF35 /* Assets.xcassets */,
 				F4FDC0BF205FF05A006BBF35 /* LaunchScreen.storyboard */,
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FDC0B6205FF05A006BBF35 /* ViewController.swift in Sources */,
+				F4FDC0B6205FF05A006BBF35 /* FirstTableViewController.swift in Sources */,
+				F4FEE8772061438F00876FFA /* MenObject.swift in Sources */,
 				F4FDC0BC205FF05A006BBF35 /* task.xcdatamodeld in Sources */,
 				F4FDC0B4205FF05A006BBF35 /* AppDelegate.swift in Sources */,
+				F4FB58A22060452800F11EC3 /* ContactsViewController.swift in Sources */,
+				F4FB58A420605CBE00F11EC3 /* PoliceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S37BS2H49;
 				INFOPLIST_FILE = task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.improvis.task;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S37BS2H49;
 				INFOPLIST_FILE = task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.improvis.task;
 				PRODUCT_NAME = "$(TARGET_NAME)";
